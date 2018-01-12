@@ -5,7 +5,6 @@ class Anagram
 
   def initialize(words)
     @words = words
-    anagrams.new
   end
 
   def match(anagrams)
