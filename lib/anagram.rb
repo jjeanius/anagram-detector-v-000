@@ -10,9 +10,9 @@ class Anagram
   def match(words)
     words.detect do |word|
       word != words
-        
-  
+
+
          end
-         words
+         word
         end
     end
