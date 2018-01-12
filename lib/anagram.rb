@@ -11,8 +11,8 @@ class Anagram
   def match(anagrams)
     anagrams.detect do |word|
     #binding.pry
-     words.split("") != word.split("")
-      anagrams.sort
+     words.split("").sort != word.split("").sort
+      anagrams
 
 end
     end
