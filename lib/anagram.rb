@@ -12,7 +12,9 @@ class Anagram
     anagrams.detect do |word|
     binding.pry
     if words.split("") != word.split("")
-      anagrams.sort.split("")
+      anagrams.sort
+    else
+      words = []
 
 
     end
