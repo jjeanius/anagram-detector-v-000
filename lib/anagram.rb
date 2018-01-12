@@ -12,6 +12,8 @@ class Anagram
     anagrams.detect do |word|
      if words.split("").sort == word.split("").sort
        anagrams
+     else
+       words = []
      end
    end
   end
