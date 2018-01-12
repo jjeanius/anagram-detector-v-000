@@ -10,7 +10,7 @@ class Anagram
 
   def match(anagrams)
     anagrams.detect do |word|
-     if words.split("") == word.split.%w("")
+     if words.split("") == word.split("")
        words = []
      else
        anagrams
