@@ -16,7 +16,7 @@ class Anagram
     else
       words = []
 
-
+end
     end
 end
 end
