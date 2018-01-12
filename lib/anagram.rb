@@ -12,6 +12,6 @@ class Anagram
       word != words
 
          end
-         words =[
+         words =[]
         end
     end
