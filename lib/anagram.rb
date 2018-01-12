@@ -8,13 +8,11 @@ class Anagram
 
   end
 
-  def self.match(anagrams)
-
+  def match(anagrams)
     anagrams.detect do |word|
     binding.pry
-    if word.split("").sort == self.anagrams.split("").sort
-      word
-
+    if words.split("") != word.split("")
+      anagrams.split("").sort
 
 
     end
