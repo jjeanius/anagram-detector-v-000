@@ -5,11 +5,11 @@ class Anagram
 
   def initialize(words)
     @words = words
-
+    anagrams.new
   end
 
   def match(anagrams)
-    anagrams.new
+
     anagrams.detect do |word|
       if word == anagrams
       anagrams.split
