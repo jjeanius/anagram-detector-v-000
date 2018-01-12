@@ -11,11 +11,11 @@ class Anagram
 
     anagrams.detect do |word|
     binding.pry
-      if @words != word
-      anagrams.split
-    else
-      word =[]
-        end
+    if word.split("").sort == self.anagrams.split("").sort 
+      word 
+
+    
+  
     end
 end
 end
