@@ -12,6 +12,6 @@ class Anagram
       word != words
 
          end
-         words.sort
+         words =[
         end
     end
