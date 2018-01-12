@@ -11,8 +11,10 @@ class Anagram
 
     anagrams.detect do |word|
     binding.pry
-      if @words == word
+      if @words != word
       anagrams.split
+    else
+      word =[]
         end
     end
 end
