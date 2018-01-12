@@ -9,9 +9,9 @@ class Anagram
 
   def match(words)
     words.detect do |word|
-      word != words
+      if word == words
 
-         end
+      else
          words =[]
         end
     end
