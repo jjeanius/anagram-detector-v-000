@@ -12,6 +12,6 @@ class Anagram
       word != words
 
          end
-         words.sort.split("")
+         words.sort.
         end
     end
