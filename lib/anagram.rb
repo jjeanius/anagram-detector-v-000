@@ -10,9 +10,8 @@ class Anagram
   def match(words)
     words.detect do |word|
       if word == words
-        words =[]
-        else
-          words.split()
+        words
+
 
          end
          end
