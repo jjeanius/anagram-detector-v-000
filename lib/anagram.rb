@@ -9,7 +9,7 @@ class Anagram
 
   def match(words)
     words.detect do |word|
-      if word == words
+      if word !== words
         words
 
 
