@@ -10,11 +10,11 @@ class Anagram
   def match(words)
     words.detect do |word|
       if word != words
-        words.split""
+        words
       else
         words =[]
 
-         end
+      end.split("")
          end
         end
     end
