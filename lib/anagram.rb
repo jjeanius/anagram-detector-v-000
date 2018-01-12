@@ -11,8 +11,7 @@ class Anagram
     words.detect do |word|
       word != words
 
-
          end
-         words
+         words.split("")
         end
     end
