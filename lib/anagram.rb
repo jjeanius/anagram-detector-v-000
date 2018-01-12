@@ -13,6 +13,6 @@ class Anagram
 
 
          end
-         word
+         words
         end
     end
