@@ -4,8 +4,8 @@ class Anagram
   attr_accessor :anagrams, :words
 
   def initialize(words)
-    @words = words
-    @@all
+    @@words = words
+
   end
 
   def self.match(anagrams)
