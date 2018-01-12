@@ -8,9 +8,9 @@ class Anagram
   end
 
   def match(anagrams)
-  
+
     anagrams.detect do |word|
-    binding.pry  
+    binding.pry
       if word == anagrams
       anagrams.split
         end
