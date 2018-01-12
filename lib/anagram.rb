@@ -5,9 +5,10 @@ class Anagram
 
   def initialize(words)
     @words = words
+    @@all
   end
 
-  def match(anagrams)
+  def self.match(anagrams)
 
     anagrams.detect do |word|
     binding.pry
