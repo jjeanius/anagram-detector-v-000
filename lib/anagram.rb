@@ -13,6 +13,6 @@ class Anagram
      if words.split("").sort == word.split("").sort
        anagrams
      end
-
+   end
   end
 end
