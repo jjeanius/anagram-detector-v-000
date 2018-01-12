@@ -11,7 +11,8 @@ class Anagram
     words.detect do |word|
       if word != words
         words
-
+      else
+        words =[]
 
          end
          end
