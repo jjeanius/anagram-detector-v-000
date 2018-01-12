@@ -12,7 +12,7 @@ class Anagram
     anagrams.detect do |word|
     #binding.pry
      words.split("").sort != word.split("").sort
-    @word
+    match
 
     end
 end
